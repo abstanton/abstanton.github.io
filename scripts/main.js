@@ -1,4 +1,4 @@
-document.body.style.zoom = "100%"
+//document.body.style.zoom = "100%"
 
 var cv_button = document.getElementById('expand-button');
 var expand_arrow = document.getElementById('expand-arrow')
@@ -10,4 +10,4 @@ cv_button.addEventListener("click", () => {
 })
 
 var theme_toggle = document.querySelector("#theme-toggle")
-theme_toggle.addEventListener('change', ()=>{document.body.classList.toggle("dark_mode")})
+theme_toggle.addEventListener('change', () => { document.body.classList.toggle("dark_mode") })
